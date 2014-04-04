@@ -67,19 +67,24 @@
 - (void)setupButtons
 {
 	// TEMP!
-	NSArray *array = @[@"Intro & How To", @"What is Heart Failure?", @"Symptom Mgmt", @"Low Salt Diet", @"Medications", @"Activity & Exercise", @"Personal Well Being", @"Smoking", @"Interactive: Mindfulness Meditation"];
+	NSArray *titleArray = @[@"Intro & How To", @"What is Heart Failure?", @"Symptom Mgmt", @"Low Salt Diet", @"Medications", @"Activity & Exercise", @"Personal Well Being", @"Smoking", @"Interactive: Mindfulness Meditation"];
+	
+	NSArray *iconArray = @[@"house", @"heart plus", @"fluids", @"apple", @"pills", @"pulse", @"bandaid", @"medical_case", @"house"];
+	
 	
 	NSMutableArray *mutArray = [[NSMutableArray alloc] init];
-	for (NSString *title in array) {
+	int i2 = 0;
+	for (NSString *title in titleArray) {
 		NHModule *module = [[NHModule alloc] init];
 		module.title = title;
-		module.iconName = @"apple"; // TEMP
+		module.iconName = [iconArray objectAtIndex:i2]; // TEMP
 		[mutArray addObject:module];
+		i2++;
 	}
 	activeModulesArray = mutArray;
 
+	// TEMP
 	int i = 0;
-	
 	for(NHModule *module in activeModulesArray)
 	{
 		UIButton *moduleButton = [UIButton buttonWithType:UIButtonTypeCustom];
