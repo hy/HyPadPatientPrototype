@@ -32,6 +32,25 @@
 		7CF866D818EF5F930081EE38 /* NHDisclaimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866D718EF5F930081EE38 /* NHDisclaimerVC.m */; };
 		7CF866DB18EF5FA20081EE38 /* NHLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */; };
 		7CF866DE18EF5FEB0081EE38 /* NHQuizVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866DD18EF5FEB0081EE38 /* NHQuizVC.m */; };
+		7CF866F118EF655D0081EE38 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866DF18EF655D0081EE38 /* apple.png */; };
+		7CF866F218EF655D0081EE38 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E018EF655D0081EE38 /* house.png */; };
+		7CF866F318EF655D0081EE38 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E118EF655D0081EE38 /* sun.png */; };
+		7CF866F418EF655D0081EE38 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E218EF655D0081EE38 /* water.png */; };
+		7CF866F518EF655D0081EE38 /* thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E318EF655D0081EE38 /* thermometer.png */; };
+		7CF866F618EF655D0081EE38 /* IV.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E418EF655D0081EE38 /* IV.png */; };
+		7CF866F718EF655D0081EE38 /* bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E518EF655D0081EE38 /* bandaid.png */; };
+		7CF866F818EF655D0081EE38 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E618EF655D0081EE38 /* phone.png */; };
+		7CF866F918EF655D0081EE38 /* fluids.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E718EF655D0081EE38 /* fluids.png */; };
+		7CF866FA18EF655D0081EE38 /* heart plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E818EF655D0081EE38 /* heart plus.png */; };
+		7CF866FB18EF655D0081EE38 /* medical school.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866E918EF655D0081EE38 /* medical school.png */; };
+		7CF866FC18EF655D0081EE38 /* injection.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866EA18EF655D0081EE38 /* injection.png */; };
+		7CF866FD18EF655D0081EE38 /* pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866EB18EF655D0081EE38 /* pulse.png */; };
+		7CF866FE18EF655D0081EE38 /* stethoscope.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866EC18EF655D0081EE38 /* stethoscope.png */; };
+		7CF866FF18EF655D0081EE38 /* medical_case.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866ED18EF655D0081EE38 /* medical_case.png */; };
+		7CF8670018EF655D0081EE38 /* pills.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866EE18EF655D0081EE38 /* pills.png */; };
+		7CF8670118EF655D0081EE38 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866EF18EF655D0081EE38 /* settings.png */; };
+		7CF8670218EF655D0081EE38 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866F018EF655D0081EE38 /* home.png */; };
+		7CF8670618EF6BA20081EE38 /* NHSlideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF8670518EF6BA20081EE38 /* NHSlideVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +100,26 @@
 		7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLoginVC.m; sourceTree = "<group>"; };
 		7CF866DC18EF5FEB0081EE38 /* NHQuizVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHQuizVC.h; sourceTree = "<group>"; };
 		7CF866DD18EF5FEB0081EE38 /* NHQuizVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHQuizVC.m; sourceTree = "<group>"; };
+		7CF866DF18EF655D0081EE38 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		7CF866E018EF655D0081EE38 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		7CF866E118EF655D0081EE38 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		7CF866E218EF655D0081EE38 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		7CF866E318EF655D0081EE38 /* thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thermometer.png; sourceTree = "<group>"; };
+		7CF866E418EF655D0081EE38 /* IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IV.png; sourceTree = "<group>"; };
+		7CF866E518EF655D0081EE38 /* bandaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandaid.png; sourceTree = "<group>"; };
+		7CF866E618EF655D0081EE38 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		7CF866E718EF655D0081EE38 /* fluids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fluids.png; sourceTree = "<group>"; };
+		7CF866E818EF655D0081EE38 /* heart plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart plus.png"; sourceTree = "<group>"; };
+		7CF866E918EF655D0081EE38 /* medical school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medical school.png"; sourceTree = "<group>"; };
+		7CF866EA18EF655D0081EE38 /* injection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = injection.png; sourceTree = "<group>"; };
+		7CF866EB18EF655D0081EE38 /* pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pulse.png; sourceTree = "<group>"; };
+		7CF866EC18EF655D0081EE38 /* stethoscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stethoscope.png; sourceTree = "<group>"; };
+		7CF866ED18EF655D0081EE38 /* medical_case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medical_case.png; sourceTree = "<group>"; };
+		7CF866EE18EF655D0081EE38 /* pills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pills.png; sourceTree = "<group>"; };
+		7CF866EF18EF655D0081EE38 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		7CF866F018EF655D0081EE38 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		7CF8670418EF6BA20081EE38 /* NHSlideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSlideVC.h; sourceTree = "<group>"; };
+		7CF8670518EF6BA20081EE38 /* NHSlideVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSlideVC.m; sourceTree = "<group>"; };
 		BA562FB236D04DBCB41681ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -162,6 +201,7 @@
 		7CF8669718EF51890081EE38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7CF8670318EF65650081EE38 /* Images */,
 				7CF8669818EF51890081EE38 /* NooraHealth-Info.plist */,
 				7CF8669918EF51890081EE38 /* InfoPlist.strings */,
 				7CF8669C18EF51890081EE38 /* main.m */,
@@ -202,20 +242,55 @@
 		7CF866D218EF53610081EE38 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7CF866CB18EF52700081EE38 /* NHOnboardingVC.h */,
-				7CF866CC18EF52700081EE38 /* NHOnboardingVC.m */,
-				7CF866D618EF5F930081EE38 /* NHDisclaimerVC.h */,
-				7CF866D718EF5F930081EE38 /* NHDisclaimerVC.m */,
-				7CF866D918EF5FA20081EE38 /* NHLoginVC.h */,
-				7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */,
+				7CF8670A18EF6C670081EE38 /* Startup */,
 				7CF866CE18EF52810081EE38 /* NHHomeVC.h */,
 				7CF866CF18EF52810081EE38 /* NHHomeVC.m */,
 				7CF866D318EF570C0081EE38 /* NHModuleVC.h */,
 				7CF866D418EF570C0081EE38 /* NHModuleVC.m */,
 				7CF866DC18EF5FEB0081EE38 /* NHQuizVC.h */,
 				7CF866DD18EF5FEB0081EE38 /* NHQuizVC.m */,
+				7CF8670418EF6BA20081EE38 /* NHSlideVC.h */,
+				7CF8670518EF6BA20081EE38 /* NHSlideVC.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7CF8670318EF65650081EE38 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866DF18EF655D0081EE38 /* apple.png */,
+				7CF866E018EF655D0081EE38 /* house.png */,
+				7CF866E118EF655D0081EE38 /* sun.png */,
+				7CF866E218EF655D0081EE38 /* water.png */,
+				7CF866E318EF655D0081EE38 /* thermometer.png */,
+				7CF866E418EF655D0081EE38 /* IV.png */,
+				7CF866E518EF655D0081EE38 /* bandaid.png */,
+				7CF866E618EF655D0081EE38 /* phone.png */,
+				7CF866E718EF655D0081EE38 /* fluids.png */,
+				7CF866E818EF655D0081EE38 /* heart plus.png */,
+				7CF866E918EF655D0081EE38 /* medical school.png */,
+				7CF866EA18EF655D0081EE38 /* injection.png */,
+				7CF866EB18EF655D0081EE38 /* pulse.png */,
+				7CF866EC18EF655D0081EE38 /* stethoscope.png */,
+				7CF866ED18EF655D0081EE38 /* medical_case.png */,
+				7CF866EE18EF655D0081EE38 /* pills.png */,
+				7CF866EF18EF655D0081EE38 /* settings.png */,
+				7CF866F018EF655D0081EE38 /* home.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7CF8670A18EF6C670081EE38 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866CB18EF52700081EE38 /* NHOnboardingVC.h */,
+				7CF866CC18EF52700081EE38 /* NHOnboardingVC.m */,
+				7CF866D618EF5F930081EE38 /* NHDisclaimerVC.h */,
+				7CF866D718EF5F930081EE38 /* NHDisclaimerVC.m */,
+				7CF866D918EF5FA20081EE38 /* NHLoginVC.h */,
+				7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */,
+			);
+			name = Startup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,9 +371,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF866F918EF655D0081EE38 /* fluids.png in Resources */,
+				7CF866F618EF655D0081EE38 /* IV.png in Resources */,
+				7CF8670218EF655D0081EE38 /* home.png in Resources */,
+				7CF866F818EF655D0081EE38 /* phone.png in Resources */,
+				7CF866FF18EF655D0081EE38 /* medical_case.png in Resources */,
+				7CF866FC18EF655D0081EE38 /* injection.png in Resources */,
+				7CF866F318EF655D0081EE38 /* sun.png in Resources */,
+				7CF866FD18EF655D0081EE38 /* pulse.png in Resources */,
+				7CF866FA18EF655D0081EE38 /* heart plus.png in Resources */,
 				7CF866C418EF51AA0081EE38 /* Podfile in Resources */,
 				7CF8669B18EF51890081EE38 /* InfoPlist.strings in Resources */,
+				7CF866F218EF655D0081EE38 /* house.png in Resources */,
+				7CF866FB18EF655D0081EE38 /* medical school.png in Resources */,
+				7CF866F718EF655D0081EE38 /* bandaid.png in Resources */,
+				7CF8670018EF655D0081EE38 /* pills.png in Resources */,
+				7CF866F118EF655D0081EE38 /* apple.png in Resources */,
 				7CF866A618EF51890081EE38 /* Images.xcassets in Resources */,
+				7CF8670118EF655D0081EE38 /* settings.png in Resources */,
+				7CF866F518EF655D0081EE38 /* thermometer.png in Resources */,
+				7CF866F418EF655D0081EE38 /* water.png in Resources */,
+				7CF866FE18EF655D0081EE38 /* stethoscope.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +449,7 @@
 				7CF866D018EF52810081EE38 /* NHHomeVC.m in Sources */,
 				7CF866A418EF51890081EE38 /* NooraHealth.xcdatamodeld in Sources */,
 				7CF866D518EF570C0081EE38 /* NHModuleVC.m in Sources */,
+				7CF8670618EF6BA20081EE38 /* NHSlideVC.m in Sources */,
 				7CF866DE18EF5FEB0081EE38 /* NHQuizVC.m in Sources */,
 				7CF866D818EF5F930081EE38 /* NHDisclaimerVC.m in Sources */,
 				7CF866CD18EF52700081EE38 /* NHOnboardingVC.m in Sources */,

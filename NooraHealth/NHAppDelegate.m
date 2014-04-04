@@ -8,6 +8,7 @@
 
 #import "NHAppDelegate.h"
 #import "NHHomeVC.h"
+#import "NHDisclaimerVC.h"
 
 @implementation NHAppDelegate
 
