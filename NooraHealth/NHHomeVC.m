@@ -119,8 +119,10 @@
 #pragma mark - User Action Methods
 - (void)buttonPressed:(id)selector
 {
-	NSLog(@"selector: %@", selector);
-	NHModuleVC *moduleVC = [[NHModuleVC alloc] init]; // TODO: initWithModule
+	UIButton *selectedButton = selector;
+	NHModule *modulePressed = [activeModulesArray objectAtIndex:selectedButton.tag];
+	NHModuleVC *moduleVC = [[NHModuleVC alloc] initWithModule:modulePressed]; // TODO: initWithModule
+	
 	[self.navigationController pushViewController:moduleVC animated:YES];
 	
 }

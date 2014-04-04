@@ -14,5 +14,6 @@
 @property NSString *title;
 @property NSString *iconName;
 @property NSString *type;
+// Content
 
 @end

@@ -10,15 +10,19 @@
 
 @interface NHModuleVC ()
 
+@property NHModule *currentModule;
+
 @end
 
 @implementation NHModuleVC
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+@synthesize currentModule;
+
+- (id)initWithModule:(NHModule *)module
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super init];
     if (self) {
-        // Custom initialization
+		self.currentModule = module;
     }
     return self;
 }
@@ -27,6 +31,7 @@
 {
     [super viewDidLoad];
 	self.view.backgroundColor = [UIColor whiteColor];
+	self.title = currentModule.title;
 	// Do any additional setup after loading the view.
 }
 
