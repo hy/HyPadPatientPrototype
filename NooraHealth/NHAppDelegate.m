@@ -7,6 +7,7 @@
 //
 
 #import "NHAppDelegate.h"
+#import "NHHomeVC.h"
 
 @implementation NHAppDelegate
 
@@ -17,7 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+	NHHomeVC *homeVC = [[NHHomeVC alloc] init];
+	UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:homeVC];
+	self.window.rootViewController = navCon;
+	
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
