@@ -1,1283 +1,595 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>4AF55DF13656431BBF9A560F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA562FB236D04DBCB41681ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63D0E8776C484E3289BDDCD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66500C0C655E4D708F9CC0E6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7CF8668218EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF8669618EF51890081EE38</string>
-				<string>7CF866B318EF518A0081EE38</string>
-				<string>7CF8668D18EF51890081EE38</string>
-				<string>7CF8668C18EF51890081EE38</string>
-				<string>63D0E8776C484E3289BDDCD3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8668318EF51890081EE38</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>NH</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Noora Health</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>7CF866AA18EF51890081EE38</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>7CF8668A18EF51890081EE38</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>7CF8668618EF51890081EE38</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7CF8668218EF51890081EE38</string>
-			<key>productRefGroup</key>
-			<string>7CF8668C18EF51890081EE38</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7CF8668A18EF51890081EE38</string>
-				<string>7CF866AA18EF51890081EE38</string>
-			</array>
-		</dict>
-		<key>7CF8668618EF51890081EE38</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7CF866BB18EF518A0081EE38</string>
-				<string>7CF866BC18EF518A0081EE38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7CF8668718EF51890081EE38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CF866CA18EF525B0081EE38</string>
-				<string>7CF866C718EF52500081EE38</string>
-				<string>7CF866D018EF52810081EE38</string>
-				<string>7CF866A418EF51890081EE38</string>
-				<string>7CF866CD18EF52700081EE38</string>
-				<string>7CF866A118EF51890081EE38</string>
-				<string>7CF8669D18EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CF8668818EF51890081EE38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CF8669118EF51890081EE38</string>
-				<string>7CF8669518EF51890081EE38</string>
-				<string>7CF8669318EF51890081EE38</string>
-				<string>7CF8668F18EF51890081EE38</string>
-				<string>4AF55DF13656431BBF9A560F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CF8668918EF51890081EE38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CF866C418EF51AA0081EE38</string>
-				<string>7CF8669B18EF51890081EE38</string>
-				<string>7CF866A618EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CF8668A18EF51890081EE38</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7CF866BD18EF518A0081EE38</string>
-			<key>buildPhases</key>
-			<array>
-				<string>66500C0C655E4D708F9CC0E6</string>
-				<string>7CF8668718EF51890081EE38</string>
-				<string>7CF8668818EF51890081EE38</string>
-				<string>7CF8668918EF51890081EE38</string>
-				<string>EA1D343E7B124DAF8A56610F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NooraHealth</string>
-			<key>productName</key>
-			<string>NooraHealth</string>
-			<key>productReference</key>
-			<string>7CF8668B18EF51890081EE38</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>7CF8668B18EF51890081EE38</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>NooraHealth.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7CF8668C18EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF8668B18EF51890081EE38</string>
-				<string>7CF866AB18EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8668D18EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF8668E18EF51890081EE38</string>
-				<string>7CF8669018EF51890081EE38</string>
-				<string>7CF8669218EF51890081EE38</string>
-				<string>7CF8669418EF51890081EE38</string>
-				<string>7CF866AC18EF51890081EE38</string>
-				<string>BA562FB236D04DBCB41681ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8668E18EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CF8668F18EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8668E18EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF8669018EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CF8669118EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669018EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF8669218EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CF8669318EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669218EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF8669418EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7CF8669518EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669418EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF8669618EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866C318EF51AA0081EE38</string>
-				<string>7CF8669F18EF51890081EE38</string>
-				<string>7CF866A018EF51890081EE38</string>
-				<string>7CF866D118EF533C0081EE38</string>
-				<string>7CF866D218EF53610081EE38</string>
-				<string>7CF866A518EF51890081EE38</string>
-				<string>7CF866A218EF51890081EE38</string>
-				<string>7CF8669718EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>NooraHealth</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669718EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF8669818EF51890081EE38</string>
-				<string>7CF8669918EF51890081EE38</string>
-				<string>7CF8669C18EF51890081EE38</string>
-				<string>7CF8669E18EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669818EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>NooraHealth-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669918EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF8669A18EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669A18EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669B18EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669918EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF8669C18EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669D18EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669C18EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF8669E18EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NooraHealth-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF8669F18EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NHAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866A018EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NHAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866A118EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866A018EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866A218EF51890081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866A318EF51890081EE38</string>
-			</array>
-			<key>currentVersion</key>
-			<string>7CF866A318EF51890081EE38</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>NooraHealth.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>7CF866A318EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>NooraHealth.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866A418EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866A218EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866A518EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866A618EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866A518EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866A718EF51890081EE38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CF866BA18EF518A0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CF866A818EF51890081EE38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CF866AD18EF51890081EE38</string>
-				<string>7CF866B018EF518A0081EE38</string>
-				<string>7CF866AF18EF518A0081EE38</string>
-				<string>7CF866AE18EF51890081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CF866A918EF51890081EE38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7CF866B818EF518A0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CF866AA18EF51890081EE38</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7CF866C018EF518A0081EE38</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7CF866A718EF51890081EE38</string>
-				<string>7CF866A818EF51890081EE38</string>
-				<string>7CF866A918EF51890081EE38</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7CF866B218EF518A0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NooraHealthTests</string>
-			<key>productName</key>
-			<string>NooraHealthTests</string>
-			<key>productReference</key>
-			<string>7CF866AB18EF51890081EE38</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>7CF866AB18EF51890081EE38</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>NooraHealthTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7CF866AC18EF51890081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7CF866AD18EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866AC18EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866AE18EF51890081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8668E18EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866AF18EF518A0081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669218EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866B018EF518A0081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF8669418EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866B118EF518A0081EE38</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7CF8668318EF51890081EE38</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7CF8668A18EF51890081EE38</string>
-			<key>remoteInfo</key>
-			<string>NooraHealth</string>
-		</dict>
-		<key>7CF866B218EF518A0081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7CF8668A18EF51890081EE38</string>
-			<key>targetProxy</key>
-			<string>7CF866B118EF518A0081EE38</string>
-		</dict>
-		<key>7CF866B318EF518A0081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866B918EF518A0081EE38</string>
-				<string>7CF866B418EF518A0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>NooraHealthTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866B418EF518A0081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866B518EF518A0081EE38</string>
-				<string>7CF866B618EF518A0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866B518EF518A0081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>NooraHealthTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866B618EF518A0081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866B718EF518A0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866B718EF518A0081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866B818EF518A0081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866B618EF518A0081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866B918EF518A0081EE38</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NooraHealthTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866BA18EF518A0081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866B918EF518A0081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866BB18EF518A0081EE38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7CF866BC18EF518A0081EE38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7CF866BD18EF518A0081EE38</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7CF866BE18EF518A0081EE38</string>
-				<string>7CF866BF18EF518A0081EE38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7CF866BE18EF518A0081EE38</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>63D0E8776C484E3289BDDCD3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>NooraHealth/NooraHealth-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>NooraHealth/NooraHealth-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7CF866BF18EF518A0081EE38</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>63D0E8776C484E3289BDDCD3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>NooraHealth/NooraHealth-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>NooraHealth/NooraHealth-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7CF866C018EF518A0081EE38</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7CF866C118EF518A0081EE38</string>
-				<string>7CF866C218EF518A0081EE38</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7CF866C118EF518A0081EE38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/NooraHealth.app/NooraHealth</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>NooraHealth/NooraHealth-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>NooraHealthTests/NooraHealthTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7CF866C218EF518A0081EE38</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/NooraHealth.app/NooraHealth</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>NooraHealth/NooraHealth-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>NooraHealthTests/NooraHealthTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7CF866C318EF51AA0081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7CF866C418EF51AA0081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866C318EF51AA0081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866C518EF52500081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NHUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866C618EF52500081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NHUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866C718EF52500081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866C618EF52500081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866C818EF525B0081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NHModule.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866C918EF525B0081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NHModule.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866CA18EF525B0081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866C918EF525B0081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866CB18EF52700081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NHOnboardingVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866CC18EF52700081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NHOnboardingVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866CD18EF52700081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866CC18EF52700081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866CE18EF52810081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NHHomeVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866CF18EF52810081EE38</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NHHomeVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866D018EF52810081EE38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CF866CF18EF52810081EE38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CF866D118EF533C0081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866C518EF52500081EE38</string>
-				<string>7CF866C618EF52500081EE38</string>
-				<string>7CF866C818EF525B0081EE38</string>
-				<string>7CF866C918EF525B0081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Models Objects Managers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF866D218EF53610081EE38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CF866CB18EF52700081EE38</string>
-				<string>7CF866CC18EF52700081EE38</string>
-				<string>7CF866CE18EF52810081EE38</string>
-				<string>7CF866CF18EF52810081EE38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>View Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA562FB236D04DBCB41681ED</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EA1D343E7B124DAF8A56610F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>7CF8668318EF51890081EE38</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF55DF13656431BBF9A560F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA562FB236D04DBCB41681ED /* libPods.a */; };
+		7CF8668F18EF51890081EE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8668E18EF51890081EE38 /* Foundation.framework */; };
+		7CF8669118EF51890081EE38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669018EF51890081EE38 /* CoreGraphics.framework */; };
+		7CF8669318EF51890081EE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669218EF51890081EE38 /* UIKit.framework */; };
+		7CF8669518EF51890081EE38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669418EF51890081EE38 /* CoreData.framework */; };
+		7CF8669B18EF51890081EE38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF8669918EF51890081EE38 /* InfoPlist.strings */; };
+		7CF8669D18EF51890081EE38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF8669C18EF51890081EE38 /* main.m */; };
+		7CF866A118EF51890081EE38 /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866A018EF51890081EE38 /* NHAppDelegate.m */; };
+		7CF866A418EF51890081EE38 /* NooraHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866A218EF51890081EE38 /* NooraHealth.xcdatamodeld */; };
+		7CF866A618EF51890081EE38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866A518EF51890081EE38 /* Images.xcassets */; };
+		7CF866AD18EF51890081EE38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF866AC18EF51890081EE38 /* XCTest.framework */; };
+		7CF866AE18EF51890081EE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8668E18EF51890081EE38 /* Foundation.framework */; };
+		7CF866AF18EF518A0081EE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669218EF51890081EE38 /* UIKit.framework */; };
+		7CF866B018EF518A0081EE38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669418EF51890081EE38 /* CoreData.framework */; };
+		7CF866B818EF518A0081EE38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866B618EF518A0081EE38 /* InfoPlist.strings */; };
+		7CF866BA18EF518A0081EE38 /* NooraHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866B918EF518A0081EE38 /* NooraHealthTests.m */; };
+		7CF866C418EF51AA0081EE38 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7CF866C318EF51AA0081EE38 /* Podfile */; };
+		7CF866C718EF52500081EE38 /* NHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866C618EF52500081EE38 /* NHUser.m */; };
+		7CF866CA18EF525B0081EE38 /* NHModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866C918EF525B0081EE38 /* NHModule.m */; };
+		7CF866CD18EF52700081EE38 /* NHOnboardingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866CC18EF52700081EE38 /* NHOnboardingVC.m */; };
+		7CF866D018EF52810081EE38 /* NHHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866CF18EF52810081EE38 /* NHHomeVC.m */; };
+		7CF866D518EF570C0081EE38 /* NHModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866D418EF570C0081EE38 /* NHModuleVC.m */; };
+		7CF866D818EF5F930081EE38 /* NHDisclaimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866D718EF5F930081EE38 /* NHDisclaimerVC.m */; };
+		7CF866DB18EF5FA20081EE38 /* NHLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */; };
+		7CF866DE18EF5FEB0081EE38 /* NHQuizVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF866DD18EF5FEB0081EE38 /* NHQuizVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF866B118EF518A0081EE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF8668318EF51890081EE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF8668A18EF51890081EE38;
+			remoteInfo = NooraHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D0E8776C484E3289BDDCD3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7CF8668B18EF51890081EE38 /* NooraHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NooraHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF8668E18EF51890081EE38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CF8669018EF51890081EE38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CF8669218EF51890081EE38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CF8669418EF51890081EE38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7CF8669818EF51890081EE38 /* NooraHealth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NooraHealth-Info.plist"; sourceTree = "<group>"; };
+		7CF8669A18EF51890081EE38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CF8669C18EF51890081EE38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CF8669E18EF51890081EE38 /* NooraHealth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NooraHealth-Prefix.pch"; sourceTree = "<group>"; };
+		7CF8669F18EF51890081EE38 /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
+		7CF866A018EF51890081EE38 /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
+		7CF866A318EF51890081EE38 /* NooraHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NooraHealth.xcdatamodel; sourceTree = "<group>"; };
+		7CF866A518EF51890081EE38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CF866AB18EF51890081EE38 /* NooraHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooraHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF866AC18EF51890081EE38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7CF866B518EF518A0081EE38 /* NooraHealthTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NooraHealthTests-Info.plist"; sourceTree = "<group>"; };
+		7CF866B718EF518A0081EE38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CF866B918EF518A0081EE38 /* NooraHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NooraHealthTests.m; sourceTree = "<group>"; };
+		7CF866C318EF51AA0081EE38 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		7CF866C518EF52500081EE38 /* NHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUser.h; sourceTree = "<group>"; };
+		7CF866C618EF52500081EE38 /* NHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUser.m; sourceTree = "<group>"; };
+		7CF866C818EF525B0081EE38 /* NHModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHModule.h; sourceTree = "<group>"; };
+		7CF866C918EF525B0081EE38 /* NHModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHModule.m; sourceTree = "<group>"; };
+		7CF866CB18EF52700081EE38 /* NHOnboardingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHOnboardingVC.h; sourceTree = "<group>"; };
+		7CF866CC18EF52700081EE38 /* NHOnboardingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHOnboardingVC.m; sourceTree = "<group>"; };
+		7CF866CE18EF52810081EE38 /* NHHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHomeVC.h; sourceTree = "<group>"; };
+		7CF866CF18EF52810081EE38 /* NHHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHomeVC.m; sourceTree = "<group>"; };
+		7CF866D318EF570C0081EE38 /* NHModuleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHModuleVC.h; sourceTree = "<group>"; };
+		7CF866D418EF570C0081EE38 /* NHModuleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHModuleVC.m; sourceTree = "<group>"; };
+		7CF866D618EF5F930081EE38 /* NHDisclaimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDisclaimerVC.h; sourceTree = "<group>"; };
+		7CF866D718EF5F930081EE38 /* NHDisclaimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDisclaimerVC.m; sourceTree = "<group>"; };
+		7CF866D918EF5FA20081EE38 /* NHLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHLoginVC.h; sourceTree = "<group>"; };
+		7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLoginVC.m; sourceTree = "<group>"; };
+		7CF866DC18EF5FEB0081EE38 /* NHQuizVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHQuizVC.h; sourceTree = "<group>"; };
+		7CF866DD18EF5FEB0081EE38 /* NHQuizVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHQuizVC.m; sourceTree = "<group>"; };
+		BA562FB236D04DBCB41681ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF8668818EF51890081EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF8669118EF51890081EE38 /* CoreGraphics.framework in Frameworks */,
+				7CF8669518EF51890081EE38 /* CoreData.framework in Frameworks */,
+				7CF8669318EF51890081EE38 /* UIKit.framework in Frameworks */,
+				7CF8668F18EF51890081EE38 /* Foundation.framework in Frameworks */,
+				4AF55DF13656431BBF9A560F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF866A818EF51890081EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF866AD18EF51890081EE38 /* XCTest.framework in Frameworks */,
+				7CF866B018EF518A0081EE38 /* CoreData.framework in Frameworks */,
+				7CF866AF18EF518A0081EE38 /* UIKit.framework in Frameworks */,
+				7CF866AE18EF51890081EE38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CF8668218EF51890081EE38 = {
+			isa = PBXGroup;
+			children = (
+				7CF8669618EF51890081EE38 /* NooraHealth */,
+				7CF866B318EF518A0081EE38 /* NooraHealthTests */,
+				7CF8668D18EF51890081EE38 /* Frameworks */,
+				7CF8668C18EF51890081EE38 /* Products */,
+				63D0E8776C484E3289BDDCD3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF8668C18EF51890081EE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF8668B18EF51890081EE38 /* NooraHealth.app */,
+				7CF866AB18EF51890081EE38 /* NooraHealthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF8668D18EF51890081EE38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF8668E18EF51890081EE38 /* Foundation.framework */,
+				7CF8669018EF51890081EE38 /* CoreGraphics.framework */,
+				7CF8669218EF51890081EE38 /* UIKit.framework */,
+				7CF8669418EF51890081EE38 /* CoreData.framework */,
+				7CF866AC18EF51890081EE38 /* XCTest.framework */,
+				BA562FB236D04DBCB41681ED /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF8669618EF51890081EE38 /* NooraHealth */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866C318EF51AA0081EE38 /* Podfile */,
+				7CF8669F18EF51890081EE38 /* NHAppDelegate.h */,
+				7CF866A018EF51890081EE38 /* NHAppDelegate.m */,
+				7CF866D118EF533C0081EE38 /* Models Objects Managers */,
+				7CF866D218EF53610081EE38 /* View Controllers */,
+				7CF866A518EF51890081EE38 /* Images.xcassets */,
+				7CF866A218EF51890081EE38 /* NooraHealth.xcdatamodeld */,
+				7CF8669718EF51890081EE38 /* Supporting Files */,
+			);
+			path = NooraHealth;
+			sourceTree = "<group>";
+		};
+		7CF8669718EF51890081EE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF8669818EF51890081EE38 /* NooraHealth-Info.plist */,
+				7CF8669918EF51890081EE38 /* InfoPlist.strings */,
+				7CF8669C18EF51890081EE38 /* main.m */,
+				7CF8669E18EF51890081EE38 /* NooraHealth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CF866B318EF518A0081EE38 /* NooraHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866B918EF518A0081EE38 /* NooraHealthTests.m */,
+				7CF866B418EF518A0081EE38 /* Supporting Files */,
+			);
+			path = NooraHealthTests;
+			sourceTree = "<group>";
+		};
+		7CF866B418EF518A0081EE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866B518EF518A0081EE38 /* NooraHealthTests-Info.plist */,
+				7CF866B618EF518A0081EE38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CF866D118EF533C0081EE38 /* Models Objects Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866C518EF52500081EE38 /* NHUser.h */,
+				7CF866C618EF52500081EE38 /* NHUser.m */,
+				7CF866C818EF525B0081EE38 /* NHModule.h */,
+				7CF866C918EF525B0081EE38 /* NHModule.m */,
+			);
+			name = "Models Objects Managers";
+			sourceTree = "<group>";
+		};
+		7CF866D218EF53610081EE38 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CF866CB18EF52700081EE38 /* NHOnboardingVC.h */,
+				7CF866CC18EF52700081EE38 /* NHOnboardingVC.m */,
+				7CF866D618EF5F930081EE38 /* NHDisclaimerVC.h */,
+				7CF866D718EF5F930081EE38 /* NHDisclaimerVC.m */,
+				7CF866D918EF5FA20081EE38 /* NHLoginVC.h */,
+				7CF866DA18EF5FA20081EE38 /* NHLoginVC.m */,
+				7CF866CE18EF52810081EE38 /* NHHomeVC.h */,
+				7CF866CF18EF52810081EE38 /* NHHomeVC.m */,
+				7CF866D318EF570C0081EE38 /* NHModuleVC.h */,
+				7CF866D418EF570C0081EE38 /* NHModuleVC.m */,
+				7CF866DC18EF5FEB0081EE38 /* NHQuizVC.h */,
+				7CF866DD18EF5FEB0081EE38 /* NHQuizVC.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF8668A18EF51890081EE38 /* NooraHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF866BD18EF518A0081EE38 /* Build configuration list for PBXNativeTarget "NooraHealth" */;
+			buildPhases = (
+				66500C0C655E4D708F9CC0E6 /* Check Pods Manifest.lock */,
+				7CF8668718EF51890081EE38 /* Sources */,
+				7CF8668818EF51890081EE38 /* Frameworks */,
+				7CF8668918EF51890081EE38 /* Resources */,
+				EA1D343E7B124DAF8A56610F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NooraHealth;
+			productName = NooraHealth;
+			productReference = 7CF8668B18EF51890081EE38 /* NooraHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CF866AA18EF51890081EE38 /* NooraHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF866C018EF518A0081EE38 /* Build configuration list for PBXNativeTarget "NooraHealthTests" */;
+			buildPhases = (
+				7CF866A718EF51890081EE38 /* Sources */,
+				7CF866A818EF51890081EE38 /* Frameworks */,
+				7CF866A918EF51890081EE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF866B218EF518A0081EE38 /* PBXTargetDependency */,
+			);
+			name = NooraHealthTests;
+			productName = NooraHealthTests;
+			productReference = 7CF866AB18EF51890081EE38 /* NooraHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF8668318EF51890081EE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Noora Health";
+				TargetAttributes = {
+					7CF866AA18EF51890081EE38 = {
+						TestTargetID = 7CF8668A18EF51890081EE38;
+					};
+				};
+			};
+			buildConfigurationList = 7CF8668618EF51890081EE38 /* Build configuration list for PBXProject "NooraHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CF8668218EF51890081EE38;
+			productRefGroup = 7CF8668C18EF51890081EE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF8668A18EF51890081EE38 /* NooraHealth */,
+				7CF866AA18EF51890081EE38 /* NooraHealthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF8668918EF51890081EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF866C418EF51AA0081EE38 /* Podfile in Resources */,
+				7CF8669B18EF51890081EE38 /* InfoPlist.strings in Resources */,
+				7CF866A618EF51890081EE38 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF866A918EF51890081EE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF866B818EF518A0081EE38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66500C0C655E4D708F9CC0E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1D343E7B124DAF8A56610F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF8668718EF51890081EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF866DB18EF5FA20081EE38 /* NHLoginVC.m in Sources */,
+				7CF866CA18EF525B0081EE38 /* NHModule.m in Sources */,
+				7CF866C718EF52500081EE38 /* NHUser.m in Sources */,
+				7CF866D018EF52810081EE38 /* NHHomeVC.m in Sources */,
+				7CF866A418EF51890081EE38 /* NooraHealth.xcdatamodeld in Sources */,
+				7CF866D518EF570C0081EE38 /* NHModuleVC.m in Sources */,
+				7CF866DE18EF5FEB0081EE38 /* NHQuizVC.m in Sources */,
+				7CF866D818EF5F930081EE38 /* NHDisclaimerVC.m in Sources */,
+				7CF866CD18EF52700081EE38 /* NHOnboardingVC.m in Sources */,
+				7CF866A118EF51890081EE38 /* NHAppDelegate.m in Sources */,
+				7CF8669D18EF51890081EE38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF866A718EF51890081EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF866BA18EF518A0081EE38 /* NooraHealthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CF866B218EF518A0081EE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF8668A18EF51890081EE38 /* NooraHealth */;
+			targetProxy = 7CF866B118EF518A0081EE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CF8669918EF51890081EE38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF8669A18EF51890081EE38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CF866B618EF518A0081EE38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF866B718EF518A0081EE38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF866BB18EF518A0081EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7CF866BC18EF518A0081EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF866BE18EF518A0081EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D0E8776C484E3289BDDCD3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NooraHealth/NooraHealth-Prefix.pch";
+				INFOPLIST_FILE = "NooraHealth/NooraHealth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CF866BF18EF518A0081EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D0E8776C484E3289BDDCD3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NooraHealth/NooraHealth-Prefix.pch";
+				INFOPLIST_FILE = "NooraHealth/NooraHealth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7CF866C118EF518A0081EE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NooraHealth.app/NooraHealth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NooraHealth/NooraHealth-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NooraHealthTests/NooraHealthTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7CF866C218EF518A0081EE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NooraHealth.app/NooraHealth";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NooraHealth/NooraHealth-Prefix.pch";
+				INFOPLIST_FILE = "NooraHealthTests/NooraHealthTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF8668618EF51890081EE38 /* Build configuration list for PBXProject "NooraHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF866BB18EF518A0081EE38 /* Debug */,
+				7CF866BC18EF518A0081EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF866BD18EF518A0081EE38 /* Build configuration list for PBXNativeTarget "NooraHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF866BE18EF518A0081EE38 /* Debug */,
+				7CF866BF18EF518A0081EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF866C018EF518A0081EE38 /* Build configuration list for PBXNativeTarget "NooraHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF866C118EF518A0081EE38 /* Debug */,
+				7CF866C218EF518A0081EE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CF866A218EF51890081EE38 /* NooraHealth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CF866A318EF51890081EE38 /* NooraHealth.xcdatamodel */,
+			);
+			currentVersion = 7CF866A318EF51890081EE38 /* NooraHealth.xcdatamodel */;
+			path = NooraHealth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CF8668318EF51890081EE38 /* Project object */;
+}
