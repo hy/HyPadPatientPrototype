@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4AF55DF13656431BBF9A560F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA562FB236D04DBCB41681ED /* libPods.a */; };
+		7C0BB9CE18FB6AE700E0C7BF /* NHAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BB9CD18FB6AE700E0C7BF /* NHAnalytics.m */; };
+		7C0BB9D118FB6AF100E0C7BF /* NHServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BB9D018FB6AF100E0C7BF /* NHServerManager.m */; };
 		7CF8668F18EF51890081EE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8668E18EF51890081EE38 /* Foundation.framework */; };
 		7CF8669118EF51890081EE38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669018EF51890081EE38 /* CoreGraphics.framework */; };
 		7CF8669318EF51890081EE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF8669218EF51890081EE38 /* UIKit.framework */; };
@@ -65,6 +67,10 @@
 
 /* Begin PBXFileReference section */
 		63D0E8776C484E3289BDDCD3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7C0BB9CC18FB6AE700E0C7BF /* NHAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAnalytics.h; sourceTree = "<group>"; };
+		7C0BB9CD18FB6AE700E0C7BF /* NHAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAnalytics.m; sourceTree = "<group>"; };
+		7C0BB9CF18FB6AF100E0C7BF /* NHServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHServerManager.h; sourceTree = "<group>"; };
+		7C0BB9D018FB6AF100E0C7BF /* NHServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHServerManager.m; sourceTree = "<group>"; };
 		7CF8668B18EF51890081EE38 /* NooraHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NooraHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF8668E18EF51890081EE38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CF8669018EF51890081EE38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -235,6 +241,10 @@
 				7CF866C618EF52500081EE38 /* NHUser.m */,
 				7CF866C818EF525B0081EE38 /* NHModule.h */,
 				7CF866C918EF525B0081EE38 /* NHModule.m */,
+				7C0BB9CC18FB6AE700E0C7BF /* NHAnalytics.h */,
+				7C0BB9CD18FB6AE700E0C7BF /* NHAnalytics.m */,
+				7C0BB9CF18FB6AF100E0C7BF /* NHServerManager.h */,
+				7C0BB9D018FB6AF100E0C7BF /* NHServerManager.m */,
 			);
 			name = "Models Objects Managers";
 			sourceTree = "<group>";
@@ -451,6 +461,8 @@
 				7CF866D518EF570C0081EE38 /* NHModuleVC.m in Sources */,
 				7CF8670618EF6BA20081EE38 /* NHSlideVC.m in Sources */,
 				7CF866DE18EF5FEB0081EE38 /* NHQuizVC.m in Sources */,
+				7C0BB9D118FB6AF100E0C7BF /* NHServerManager.m in Sources */,
+				7C0BB9CE18FB6AE700E0C7BF /* NHAnalytics.m in Sources */,
 				7CF866D818EF5F930081EE38 /* NHDisclaimerVC.m in Sources */,
 				7CF866CD18EF52700081EE38 /* NHOnboardingVC.m in Sources */,
 				7CF866A118EF51890081EE38 /* NHAppDelegate.m in Sources */,

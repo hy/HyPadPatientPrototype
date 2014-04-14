@@ -89,9 +89,9 @@
 	{
 		UIButton *moduleButton = [UIButton buttonWithType:UIButtonTypeCustom];
 		if(i < 5)
-			moduleButton.frame = CGRectMake(20, 120 + (i * 100), 450, 90);
+			moduleButton.frame = CGRectMake(20, 120 + (i * 110), 450, 100);
 		else
-			moduleButton.frame = CGRectMake(550, 120 + ((i-5) * 100), 450, 90);
+			moduleButton.frame = CGRectMake(550, 120 + ((i-5) * 110), 450, 100);
 		
 		[moduleButton setTitle:module.title forState:UIControlStateNormal];
 		moduleButton.titleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:37];
@@ -110,7 +110,7 @@
 		moduleButton.tag = i;
 		[moduleButton addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
 		
-		UIImageView *moduleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 70, 70)];
+		UIImageView *moduleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(15, 15, 70, 70)];
 		moduleImageView.contentMode = UIViewContentModeScaleAspectFit;
 		moduleImageView.image = [UIImage imageNamed:module.iconName];
 		[moduleButton addSubview:moduleImageView];
